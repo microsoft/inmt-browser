@@ -1,0 +1,61 @@
+#dialoger {
+    font-family: Courier !important;
+    font-size:16px !important;
+    line-height: 1.5 !important;
+    font-weight: 500 !important;
+}
+
+/* h2:hover {
+        cursor: pointer;
+    } */
+
+#dialoger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: #eee; */
+    /* border: 1px solid rgb(150, 150, 150); */
+
+    z-index: 100000000000;
+    display: none;
+    /* transition-duration: 0.3s;
+        transition-timing-function: linear; */
+    height: 370px;
+    width: 500px;
+    border: 1px solid #bbb;
+    pointer-events: all;
+}
+
+#dialoger:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    top: -30px;
+    border: solid 15px transparent;
+    border-bottom-color: #222;
+    z-index: 1;
+    pointer-events: all;
+}
+
+#closedialog {
+    height: 25px;
+    width: 25px;
+    float: right;
+    background-color: #ef5350;
+    margin-top: 7.5px;
+    margin-right: 7.5px;
+    color: #eee;
+    text-align: center;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#closedialog:hover {
+    background-color: #e53935;
+    pointer-events: all;
+}
+
+textarea {
+    resize: none;
+}

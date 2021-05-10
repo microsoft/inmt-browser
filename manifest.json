@@ -1,0 +1,23 @@
+{
+"manifest_version": 2,
+
+"name": "Interactive NMT",
+"description": "Interactively translate webpages",
+"version": "1.0",
+"background": {
+    "scripts": ["jquery.js", "config.js", "background.js"],
+    "persistent": true
+},
+
+"browser_action": {
+    "default_popup": "popup.html"
+},
+"permissions": [
+    "activeTab",
+    "tabs",
+    "downloads",
+    "storage",
+    "https://api.cognitive.microsofttranslator.com/"
+],
+"web_accessible_resources": ["bootstrap.min.css", "fix.css"]
+}

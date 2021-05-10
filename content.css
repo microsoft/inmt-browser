@@ -1,0 +1,61 @@
+.translateelement918273645:hover {
+    cursor: pointer;
+    pointer-events: all;
+    background-color: rgb(172, 206, 247);
+}
+
+.disabledbutton {
+    pointer-events: none;
+}
+
+.enabledbutton {
+    pointer-events: all;
+}
+
+/* .bg-hover {
+    background-color: rgb(172, 206, 247);
+} */
+
+.bg-select {
+    background-color: rgb(255, 255, 170);
+}
+
+
+#top,
+#bottom,
+#left,
+#right {
+    background: #ff0000;
+    position: fixed;
+    z-index:100;
+}
+
+#left,
+#right {
+    top: 0;
+    bottom: 0;
+    width: 10px;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+#top,
+#bottom {
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}

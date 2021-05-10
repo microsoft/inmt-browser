@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Interactive NMT</title>
+    <!-- <script src="popup.js"></script> -->
+
+    <!-- <input id="highlight" type="checkbox" data-toggle="toggle"> -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-toggle.min.css">
+
+</head>
+
+<body class="">
+    <!-- <h1>Sebastin Santy</h1> -->
+    <div class="container">
+        <h4 class="text-center pt-3">Interactive NMT</h4>
+        <!-- <hr> -->
+        <div class="row text-center py-2">
+            <!-- <div class="col col-6">
+                <div id="urldisp" class="text-wrap pb-2"></div>
+                <input id="highlighter"  data-style="quick" data-height="10" data-width="80" type="checkbox" data-toggle="toggle" data-on="<small>On</small>" data-off="<small>Off</small>" data-onstyle="success" data-offstyle="danger">
+                <br>
+                <small id="highlighter-tooltip" class="text-center">Toggle current site</small>
+            </div> -->
+            <div class="col col-12">
+                <!-- <input id="highlighter"  data-style="quick" data-height="30" data-width="80" type="checkbox" data-toggle="toggle" data-on="<i class=''></i>" data-off="<i class=''></i>" data-onstyle="success" data-offstyle="danger"> -->
+                <input id="globaltoggle"  data-style="quick" data-height="40" data-width="200" type="checkbox" data-toggle="toggle" data-on="&nbsp;&nbsp;<small>Localization On</small>" data-off="<small>Localize this page?</small>&nbsp;&nbsp;&nbsp;" data-onstyle="success" data-offstyle="danger">
+                <!-- <br> -->
+                <!-- <small class="text-center">Toggle extension</small> -->
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="row p-1">
+            <div class="col col-6">
+                <span class="p-1"></span><small>Language?</small></span><br>
+                <div class="form-group">
+                    <!-- <label class="d-inline-block" for="exampleFormControlSelect1"></label> -->
+                    <select class="form-control langselect form-control-sm" id="langselect">
+                        <option value="hi">Hindi</option>
+                        <option value="bn">Bangla</option>
+                        <option value="kn">Kannada</option>
+                        <option value="ml">Malayalam</option>
+                        <option value="gu">Gujarati</option>
+                    </select>
+                </div>
+            </div>
+            
+        </div>
+        <button id="savetranslation" type="button" class="deadify btn btn-info btn-sm">Save Translates</button>
+        <!-- <form>
+            <div class="form-group">
+                <input type="file" class="form-control-file" id="loadtranslation">
+            </div>
+        </form> -->
+        <button id="savehtml" type="button" class="btn btn-info btn-sm">Save HTML</button>
+        <div class="row pt-1 pl-3">
+            <button id="savepdf" type="button" class="btn btn-info btn-sm">Save PDF</button> &nbsp;&nbsp;
+                <button class="btn btn-info btn-sm btn-file" id="loadtranslation" disabled>
+                    Load and Apply <input id="loadfile" type="file" disabled>
+                </button>
+        </div>
+        <!-- <button id="savepage" type="button" class="deadify btn btn-primary btn-sm">Save Page</button> -->
+    </div>
+    
+    <script src="jquery.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="bootstrap-toggle.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+
+</html>
+
+<style>
+    body {
+        /* height: 500px; */
+        height: 270px;
+        width: 280px;
+        border: 2px solid #bf360c ;
+        font-size: 15px;
+    }
+
+    #urldisp {
+        font-size: 11px;
+    }
+
+    .btn-file {
+        position: relative;
+        overflow: hidden;
+    }
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+
+
+  .slow .toggle-group { transition: left 0.7s; -webkit-transition: left 0.7s; }
+  .fast .toggle-group { transition: left 0.1s; -webkit-transition: left 0.1s; }
+  .quick .toggle-group { transition: none; -webkit-transition: none; }
+
+
+</style>
