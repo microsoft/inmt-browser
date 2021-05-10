@@ -65,13 +65,13 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
         console.log("Hello")
         if (request.phrase == "True") {
             chrome.tabs.executeScript({
-                file: 'jquery.js'
+                file: 'js/jquery.js'
             });
             chrome.tabs.executeScript({
-                file: 'content.js'
+                file: 'js/content.js'
             });
             chrome.tabs.executeScript({
-                file: 'content.css'
+                file: 'css/content.css'
             });
         } else {
             
@@ -132,13 +132,13 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
                 msg = msg || {};
                 if (msg.status != 'yes') {
                     chrome.tabs.insertCSS(tabs[0].id, {
-                        file: "content.css"
+                        file: "css/content.css"
                     });
                     chrome.tabs.executeScript(tabs[0].id, {
-                        file: "jquery.js"
+                        file: "js/jquery.js"
                     }, function() {
                         chrome.tabs.executeScript(tabs[0].id, {
-                            file: "content.js"
+                            file: "js/content.js"
                         })
                     });
                 }

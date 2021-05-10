@@ -5,7 +5,7 @@
 "description": "Interactively translate webpages",
 "version": "1.0",
 "background": {
-    "scripts": ["jquery.js", "config.js", "background.js"],
+    "scripts": ["js/jquery.js", "config.js", "js/background.js"],
     "persistent": true
 },
 
@@ -19,5 +19,5 @@
     "storage",
     "https://api.cognitive.microsofttranslator.com/"
 ],
-"web_accessible_resources": ["bootstrap.min.css", "fix.css"]
+"web_accessible_resources": ["css/*", "bootstrap.min.css", "fix.css"]
 }

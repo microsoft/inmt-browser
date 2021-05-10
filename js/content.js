@@ -83,11 +83,11 @@ function _x(STR_XPATH) {
 }
 
 var dialoger = `
-<link rel="stylesheet" type="text/css" href="${chrome.extension.getURL("bootstrap.min.css")}"></link>
-<link rel="stylesheet" type="text/css" href="${chrome.extension.getURL("fix.css")}"></link>
-<script src="${chrome.extension.getURL("jquery.js")}"></script>
-<script src="${chrome.extension.getURL("popper.js")}"></script>
-<script src="${chrome.extension.getURL("bootstrap.min.js")}"></script>
+<link rel="stylesheet" type="text/css" href="${chrome.extension.getURL("css/bootstrap.min.css")}"></link>
+<link rel="stylesheet" type="text/css" href="${chrome.extension.getURL("css/fix.css")}"></link>
+<script src="${chrome.extension.getURL("js/jquery.js")}"></script>
+<script src="${chrome.extension.getURL("js/popper.js")}"></script>
+<script src="${chrome.extension.getURL("js/bootstrap.min.js")}"></script>
 <div id="dialoger" class="shadow mb-5 carder rounded bg-light">
         <div class="align-middle" style="background-color: #222; height: 40px; color:#eee;">
             <div style="float:left; margin:8px;" class="">Translate Dialog</div>
