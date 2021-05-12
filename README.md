@@ -1,14 +1,21 @@
-# Project
+<div align="center">
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+# INMT Browser
+Enhancing Webpage Localization through in-situ Translations
 
-As the maintainer of this project, please make a few updates:
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+[![license](https://dev.azure.com/MSRISpeechAndLanguage/Interactive%20Translation%20Annotation/_apis/build/status/microsoft.inmt-browser?branchName=main)](https://dev.azure.com/MSRISpeechAndLanguage/Interactive%20Translation%20Annotation/_apis/build/status/microsoft.inmt-browser?branchName=main)
+[![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/microsoft/inmt-browser/blob/main/LICENSE)
+
+<!-- [![license](https://img.shields.io/badge/youtube-youtu.be%2FDHan93R8d84-critical?style=&logo=youtube)](https://dev.azure.com/ELLORA/Interactive%20Machine%20Translation/_build?definitionId=3&amp;branchName=master)
+[![license](https://img.shields.io/badge/Demo-aka.ms%2Finmt-informational?style=&logo=microsoft-azure)](https://dev.azure.com/ELLORA/Interactive%20Machine%20Translation/_build?definitionId=3&amp;branchName=master)
+[![license](https://img.shields.io/badge/Paper-anthology%2FD19--3018-lightgrey?style=&logo=read-the-docs)](https://dev.azure.com/ELLORA/Interactive%20Machine%20Translation/_build?definitionId=3&amp;branchName=master)
+
+[![license](https://raw.githubusercontent.com/microsoft/inmt/master/docs/static/inmtv2-white.png)](docs/static/inmtv2-white.png) -->
+<!-- [![license](https://img.shields.io/badge/Paper-anthology%2FD19--3018-lightgrey?style=&logo=read-the-docs)](https://dev.azure.com/ELLORA/Interactive%20Machine%20Translation/_build?definitionId=3&amp;branchName=master) -->
+
+
+</div>
 
 ## Contributing
 
