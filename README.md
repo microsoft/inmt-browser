@@ -4,7 +4,7 @@
 Enhancing Webpage Localization through in-situ Translations
 
 
-[![license](https://dev.azure.com/MSRISpeechAndLanguage/Interactive%20Translation%20Annotation/_apis/build/status/microsoft.inmt-browser?branchName=main)](https://dev.azure.com/MSRISpeechAndLanguage/Interactive%20Translation%20Annotation/_apis/build/status/microsoft.inmt-browser?branchName=main)
+[![Build Status](https://dev.azure.com/ELLORA/Interactive%20Machine%20Translation/_apis/build/status/microsoft.inmt?branchName=master)](https://dev.azure.com/MSRISpeechAndLanguage/Interactive%20Translation%20Annotation/_build/latest?definitionId=16&branchName=main)
 [![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/microsoft/inmt-browser/blob/main/LICENSE)
 
 <!-- [![license](https://img.shields.io/badge/youtube-youtu.be%2FDHan93R8d84-critical?style=&logo=youtube)](https://dev.azure.com/ELLORA/Interactive%20Machine%20Translation/_build?definitionId=3&amp;branchName=master)
@@ -16,6 +16,12 @@ Enhancing Webpage Localization through in-situ Translations
 
 
 </div>
+
+## Installation
+
+* Add a `config.json` file in the `ext` folder as such: 
+  ```var config = {'Ocp-Apim-Subscription-Key' : '1234abcd'}```
+* Load `ext` folder as unpacked extension on Edge/Chrome browser.
 
 ## Contributing
 
