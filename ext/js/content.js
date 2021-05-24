@@ -336,7 +336,7 @@ $(shadowRoot).find("#di-replace").on('click', function () {
         "source": source,
         "target": target
     })
-    focuselement.html($(shadowRoot).find("#translatesent").val());
+    focuselement.text($(shadowRoot).find("#translatesent").val());
     $(shadowRoot).find('#dialoger').fadeOut(100);
     focuselement.removeClass("bg-select")
     
