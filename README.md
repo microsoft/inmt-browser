@@ -14,6 +14,7 @@ Enhancing Webpage Localization through in-situ Translations
 [![license](https://raw.githubusercontent.com/microsoft/inmt/master/docs/static/inmtv2-white.png)](docs/static/inmtv2-white.png) -->
 <!-- [![license](https://img.shields.io/badge/Paper-anthology%2FD19--3018-lightgrey?style=&logo=read-the-docs)](https://dev.azure.com/ELLORA/Interactive%20Machine%20Translation/_build?definitionId=3&amp;branchName=master) -->
 
+[![license](https://raw.githubusercontent.com/microsoft/inmt-browser/main/docs/static/inmt-browser-pratham.png)](docs/static/inmt-browser-pratham.png)
 
 </div>
 
@@ -22,6 +23,10 @@ Enhancing Webpage Localization through in-situ Translations
 * Add a `config.json` file in the `ext` folder as such: 
   ```var config = {'Ocp-Apim-Subscription-Key' : '1234abcd'}```
 * Load `ext` folder as unpacked extension on Edge/Chrome browser.
+
+## INMT Browser Structure
+
+[![license](https://raw.githubusercontent.com/microsoft/inmt-browser/main/docs/static/inmt-browser-arch.png)](docs/static/inmt-browser-arch.png)
 
 ## Contributing
 
