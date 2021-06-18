@@ -20,7 +20,7 @@ Enhancing Webpage Localization through in-situ Translations
 
 ## Installation
 
-* Add a `config.json` file in the `ext` folder as such: 
+* Add a `config.js` file in the `ext` folder as such: 
   ```var config = {'Ocp-Apim-Subscription-Key' : '1234abcd'}```
 * Load `ext` folder as unpacked extension on Edge/Chrome browser.
 
